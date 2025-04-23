@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.container {
+    width: 100%;
+    max-width: 1700px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.uzb {
+    background-color: #F0F0F0;
+    padding: 150px 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-left: 50px;
+}
+
+.delete {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background-color: red;
+    border: 1px solid #000;
+    transition: background-color 0.3s;
+}
+
+.delete:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.edit {
+    background-color: yellow;
+    border: 1px solid #000;
+    transition: background-color 0.3s;
+}
+
+.edit:hover {
+    background-color: rgb(255, 255, 150);
+}
